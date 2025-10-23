@@ -25,8 +25,8 @@ main{
 section#tudo{
     position: absolute;
     background-color: white;
-    width: 350px;
-    height: 100vh;
+    width: 360px;
+    height: 90vh;
     top: 50%;
     left: 50%;
     border-radius: 8px;
