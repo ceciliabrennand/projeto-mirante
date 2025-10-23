@@ -58,26 +58,64 @@ div#formulario > h1{
 div#formulario > p{
     text-align: center;
     font-size: 15px;
-    padding-bottom: 10px;
-}
+    padding: 0px 10px 10px 10px
 
-form{
-    
 }
 
 div.info{
     display: block;
     margin: auto;
     margin-bottom: 5px;
-    width: 350px;
-    background-color: #4A7DA5;
+    width: 320px;
+    background-color: var(--cor4);
     color: white;
     padding: 5px;
-    font-size: 15px;
+    font-size: 17px;
+    border-radius: 8px;
+}
+
+div.info > label{
+    padding-left: 10px;
 }
 
 div.info > input{
     height: 30px;
-    
-    margin-left: 13px;
+    width: 241px;
+    margin: auto;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: var(--cor1);
+}
+
+input#enviar{
+    display: block;
+    margin-left: 320px;
+    height: 40px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--cor2);
+    color: white;
+    font-weight: bold;
+}
+
+input#nome{
+    margin-left: 5px;
+}
+
+input#apto{
+    margin-left: 15px;
+}
+
+input#carro{
+    margin-left: 8px;
+}
+
+input#data{
+    margin-left: 14px;
+}
+
+input#enviar:hover{
+    background-color: var(--cor3);
 }
