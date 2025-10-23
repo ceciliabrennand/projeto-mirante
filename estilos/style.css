@@ -22,6 +22,7 @@ main{
     margin: auto;
 }
 
-section#formulario{
+div#imagem{
+    display: block;
     background-image: var(--cor2), url(imagens/predios.jpg);
 }
