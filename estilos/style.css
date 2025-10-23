@@ -25,7 +25,7 @@ main{
 section#tudo{
     position: absolute;
     background-color: white;
-    width: 400px;
+    width: 350px;
     height: 90vh;
     top: 50%;
     left: 50%;
@@ -105,7 +105,7 @@ input#data{
 
 input#enviar{
     display: block;
-    margin-left: 305px;
+    margin-left: 280px;
     height: 40px;
     width: 60px;
     border: none;
