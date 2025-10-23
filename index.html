@@ -8,22 +8,30 @@
 </head>
 <body>
     <main>
-        <section>
+        <section id="tudo">
             <div id="imagem">
 
             </div>
             <div id="formulario">
                 <h1>Vai emprestar sua vaga para alguém?</h1>
-                <p>Preencha o formulário com as informações para o porteiro.</p>
+                <p>Preencha o formulário com as informações para o porteiro liberar a entrada.</p>
                 <form action="vagas.php" method="get">
-                    <label for="inome">Nome:</label>
-                    <input type="text" name="nome" id="inome" required placeholder="Seu nome"> <br>
-                    <label for="iapto">Apto:</label>
-                    <input type="number" name="apto" id="iapto" required placeholder="Número da vaga"> <br>
-                    <label for="icarro">Carro:</label>
-                    <input type="text" name="carro" id="icarro" required placeholder="Modelo e placa"> <br>
-                    <label for="idata">Data:</label>
-                    <input type="date" name="data" id="idata"> <br>
+                    <div class="info">
+                        <label for="inome">Nome:</label>
+                        <input type="text" name="nome" id="inome" required placeholder="Seu nome"> <br>
+                    </div>
+                    <div class="info">
+                        <label for="iapto">Apto:</label>
+                        <input type="number" name="apto" id="iapto" required placeholder="Número da vaga"> <br>
+                    </div>
+                    <div class="info">
+                        <label for="icarro">Carro:</label>
+                        <input type="text" name="carro" id="icarro" required placeholder="Modelo e placa"> <br>
+                    </div>
+                    <div class="info">
+                        <label for="idata">Data:</label>
+                        <input type="date" name="data" id="idata">
+                    </div>
                     <input type="submit" value="Enviar">
                 </form>
             </div>
